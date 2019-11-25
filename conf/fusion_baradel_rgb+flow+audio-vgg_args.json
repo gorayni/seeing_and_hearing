@@ -1,0 +1,27 @@
+{
+  "embeddings_pkl": "EPIC_KITCHENS_2018/action/embeddings_baradel_training_rgb+flow+audio.pkl",
+  "classes_map": "annotations/EPIC_ARC_Baradel_classes_map.pkl",
+  "type": "verb",
+  "splits": "annotations/EPIC_ARC_Baradel_splits.pkl",
+  "arc": "resnet18",
+  "train": true,
+  "test_epoch": 1,
+  "modalities": "rgb+flow+audio_vgg",
+  "optimizer": "SGD",
+  "lr": 0.0001,
+  "momentum": 0.9,
+  "epochs": 70,
+  "batch_size": 10,
+  "test_batch_size": 1,
+  "log_interval": 100,
+  "patience": 80,
+  "num_workers": 10,
+  "cuda": true,
+  "checkpoint": "checkpoint_baradel",
+  "seed": 42,
+  "weights_file": null,
+  "snapshot_pref": "fusion_rgb+audio+audio-vgg",
+  "k": 3,
+  "test_segments": 25
+}
+

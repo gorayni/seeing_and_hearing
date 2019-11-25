@@ -1,0 +1,22 @@
+{
+  "audio_hdf5": "EPIC_KITCHENS_2018/action/audio/train/all_audio_dataset_norm_4secs.hdf5",
+  "classes_map": "annotations/EPIC_ARC_Baradel_classes_map.pkl",
+  "type": "verb",
+  "splits": "annotations/EPIC_ARC_Baradel_splits.pkl",
+  "train": false,
+  "test_epoch": 35,
+  "arc": "TRADDIL16",
+  "optimizer": "SGD",
+  "lr": 0.0007,
+  "momentum": 0.9,
+  "epochs": 50,
+  "batch_size": 22,
+  "test_batch_size": 1,
+  "log_interval": 100,
+  "patience": 80,
+  "num_workers": 11,
+  "cuda": true,
+  "checkpoint": "checkpoint_baradel",
+  "seed": 42,
+  "weights_file": null
+}

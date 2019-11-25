@@ -1,0 +1,10 @@
+{
+  "confs": {
+      "verb_conf": "conf/fusion_all-action-verb_rgb+flow+audio-traddil_args_2.json",
+      "noun_conf": "conf/fusion_all-action-noun_rgb+flow+audio-traddil_args_2.json"
+  },
+  "classes_maps": {
+    "verb": "annotations/EPIC_ARC_all_verb_classes_map.pkl",
+    "noun": "annotations/EPIC_ARC_all_noun_classes_map.pkl"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "embeddings_pkl": "EPIC_KITCHENS_2018/action/embeddings_all-action-verb_rgb+traddil_training.pkl",
+  "classes_map": "annotations/EPIC_ARC_all_verb_classes_map.pkl",
+  "type": "verb",
+  "splits": "annotations/EPIC_ARC_all_splits.pkl",
+  "train": true,
+  "test_epoch": 2,
+  "modalities": "rgb+audio_traddil",
+  "optimizer": "SGD",
+  "lr": 0.000001,
+  "momentum": 0.9,
+  "epochs": 15,
+  "batch_size": 10,
+  "test_batch_size": 1,
+  "log_interval": 100,
+  "patience": 80,
+  "num_workers": 10,
+  "cuda": true,
+  "checkpoint": "checkpoint",
+  "seed": 42,
+  "weights_file": null,
+  "snapshot_pref": "epic_fusion",
+  "k": 3,
+  "test_segments": 25,
+  "challenge_test_sets": [
+    {
+      "name": "s1",
+      "audio_hdf5": "EPIC_KITCHENS_2018/action/audio/test/audio_test_s1_norm_4secs.hdf5"
+    },
+    {
+      "name": "s2",
+      "audio_hdf5": "EPIC_KITCHENS_2018/action/audio/test/audio_test_s2_norm_4secs.hdf5"
+    }
+  ]
+}

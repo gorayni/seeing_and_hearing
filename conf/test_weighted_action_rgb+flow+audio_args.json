@@ -1,0 +1,15 @@
+{
+  "modalities": {
+    "rgb": {
+      "conf": "conf/tsn_rgb_all-action_args.json"
+    },
+    "flow": {
+      "conf": "conf/tsn_flow_all-action_args.json"
+    },
+    "audio": {
+      "conf": "conf/audio_all-action_args_2.json"
+    }
+  },
+  "weights": [1.8, 1.4, 1.1],
+  "classes_map": "annotations/EPIC_ARC_all_classes_map.pkl"
+}

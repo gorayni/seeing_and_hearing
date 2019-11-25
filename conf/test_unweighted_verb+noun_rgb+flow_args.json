@@ -1,0 +1,20 @@
+{
+  "modalities": {
+    "rgb": {
+      "verb_conf": "conf/tsn_rgb_all-action-verb_args.json",
+      "noun_conf": "conf/tsn_rgb_all-action-noun_args.json"
+    },
+    "flow": {
+      "verb_conf": "conf/tsn_flow_all-action-verb_args.json",
+      "noun_conf": "conf/tsn_flow_all-action-noun_args.json"
+    }
+  },
+  "weights": {
+    "verb": [1.0, 1.0],
+    "noun": [1.0, 1.0]
+  },
+  "classes_maps": {
+    "verb": "annotations/EPIC_ARC_all_verb_classes_map.pkl",
+    "noun": "annotations/EPIC_ARC_all_noun_classes_map.pkl"
+  }
+}

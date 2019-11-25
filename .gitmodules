@@ -1,0 +1,15 @@
+[submodule "annotations"]
+	path = annotations
+	url = https://github.com/epic-kitchens/annotations.git
+[submodule "download-scripts"]
+	path = download-scripts
+	url = https://github.com/epic-kitchens/download-scripts.git
+[submodule "tsn-pytorch"]
+	path = tsn-pytorch
+	url = https://github.com/yjxiong/tsn-pytorch.git
+[submodule "epic-lib"]
+	path = epic-lib
+	url = https://github.com/epic-kitchens/epic-lib.git
+[submodule "brightside"]
+	path = brightside
+	url = https://github.com/gorayni/brightside.git
