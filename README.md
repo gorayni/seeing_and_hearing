@@ -32,7 +32,7 @@ If you use this code or its database, please consider citing:
 
 1. Clone this repository
   	```bash
-  	git clone --recursive https://github.com/gorayni/epic_challenge.git
+  	git clone --recursive https://github.com/gorayni/seeing_and_hearing
   	```
 
 2. Create the Conda environment:
